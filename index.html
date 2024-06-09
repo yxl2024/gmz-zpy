@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF Poster with Embedded Video</title>
+    <style>
+      .poster-container {
+        position: relative;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+      }
+      .poster-image {
+        width: 100%;
+        display: block;
+      }
+      .video-overlay {
+        position: absolute;
+        top: 82%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: auto;
+        max-width: 550px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="poster-container">
+      <img
+        src="file:///Users/gaomingze/Downloads/海报app.png"
+        alt="PDF Poster"
+        class="poster-image"
+      />
+      <video controls class="video-overlay">
+        <source
+          src="file:///Users/gaomingze/Downloads/展示视频.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </body>
+</html>
